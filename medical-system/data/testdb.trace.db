@@ -1,0 +1,18 @@
+2025-01-21 16:23:19.001672+06:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRESCRIPTION" not found (this database is empty); SQL statement:
+select * from prescription [42104-224]
+2025-01-21 16:32:02.328872+06:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT USERS USERS [*]* FROM USERS"; SQL statement:
+SELECT USERS USERS * FROM USERS [42000-224]
+2025-01-21 16:32:03.027319+06:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT USERS USERS [*]* FROM USERS"; SQL statement:
+SELECT USERS USERS * FROM USERS [42000-224]
+2025-01-21 16:32:05.010579+06:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT USERS USERS [*]* FROM USERS"; SQL statement:
+SELECT USERS USERS * FROM USERS [42000-224]
+2025-01-21 17:41:18.895524+06:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USERS"; expected "UPDATE"; SQL statement:
+USERS [42001-224]
+2025-01-21 17:41:19.623105+06:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USERS"; expected "UPDATE"; SQL statement:
+USERS [42001-224]
